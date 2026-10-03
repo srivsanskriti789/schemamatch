@@ -1,0 +1,25 @@
+/* Design tokens from TRD Section 5 & ppt proj.pdf */
+:root {
+  --navy: #0B1B33;
+  --navy-dark: #071324;
+  --navy-card: #15263F;
+  --cream: #FBF7EE;
+  --cream-alt: #F8F5EE;
+  --cream-card: #FDFBF7;
+  --white: #FFFFFF;
+  --orange: #F26B2A;
+  --orange-hover: #E05A19;
+  --orange-light: #FFF0EB;
+  --mint: #E3F4EC;
+  --mint-dark: #2F7C61;
+  --green: #1E9E6A;
+  --green-light: #E7F7F0;
+  --amber: #E9A23B;
+  --amber-light: #FEF7EC;
+  --red: #D64545;
+  --red-light: #FDF1F1;
+  --muted: #5B6B82;
+  --muted-light: #94A3B8;
+  --border-light: #E9E4D9;
+  --border-dark: #223755;
+}

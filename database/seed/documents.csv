@@ -1,0 +1,21 @@
+scheme_slug,name_key,mandatory,condition_json,tip_key,alternatives_json,last_verified_at
+pm-vishwakarma,Aadhaar card,1,,"Ensure name, date of birth, and photo match your application exactly. Linked mobile number required for OTP.",'["Voter ID with affidavit (if biometric verified at CSC)"]',2026-09-15 10:00:00
+pm-vishwakarma,Bank passbook,1,,"Clear photograph or copy of first page showing Account Number, IFSC code, and branch stamp.",'["Cancelled cheque leaf with printed name", "Bank statement stamped by branch"]',2026-09-15 10:00:00
+pm-vishwakarma,Address proof,1,,"Document must be issued within the accepted period (last 6 months for utility bills).",'["Domicile certificate", "Electricity bill", "Voter card", "Ration card"]',2026-09-15 10:00:00
+pm-vishwakarma,Recent photograph,1,,"Two passport-size color photographs with clear light background, taken within last 3 months.",'["Digital photo captured during CSC registration"]',2026-09-15 10:00:00
+pm-vishwakarma,Artisan Trade Certificate or Self-Declaration,1,,"Proof of practicing the registered traditional craft (or Panchayat recommendation).",'["Gram Pradhan / Ward Councillor Certificate of Practice"]',2026-09-15 10:00:00
+ayushman-bharat-pmjay,Aadhaar card or Ration card,1,,"Used to verify household inclusion in the PM-JAY database.",'["NFSA Ration Card", "Government-issued Photo ID"]',2026-09-18 11:30:00
+ayushman-bharat-pmjay,Active mobile number,1,,"Required to receive verification OTP and digital Ayushman card SMS.",'[]',2026-09-18 11:30:00
+national-scholarship-portal,Student Aadhaar card,1,,"Aadhaar seeding with bank account is mandatory for DBT transfers.",'["Aadhaar Enrolment Slip + Bonafide Student Certificate"]',2026-09-20 09:15:00
+national-scholarship-portal,Previous year mark sheet,1,,"Clear copy showing percentage / GPA and passing status.",'["Original marksheet signed by head of institution"]',2026-09-20 09:15:00
+national-scholarship-portal,Income certificate,1,,"Valid income certificate issued by competent revenue authority (Tehsildar/SDM).",'["Form 16 or Salary Slip for salaried parents"]',2026-09-20 09:15:00
+national-scholarship-portal,Bonafide student certificate,1,,"Issued and stamped by current school/college/university registrar.",'[]',2026-09-20 09:15:00
+sukanya-samriddhi-yojana,Birth certificate of girl child,1,,"Issued by municipal corporation, hospital, or registrar of births.",'["School leaving certificate with verified DOB"]',2026-09-22 14:00:00
+sukanya-samriddhi-yojana,Identity proof of parent/guardian,1,,"Aadhaar, Passport, Voter Card, or Driving License of opening parent.",'["PAN Card", "NREGA Job Card"]',2026-09-22 14:00:00
+sukanya-samriddhi-yojana,Address proof of guardian,1,,"Must show current residential address matching bank KYC records.",'["Utility bill", "Aadhaar Card", "Rent agreement with utility bill"]',2026-09-22 14:00:00
+pm-scholarship-scheme,Discharge book / ESM identity card,1,,"Proof of ex-serviceman status issued by Armed Forces Record Office.",'["Coast Guard / Police Certificate of Service"]',2026-09-25 16:30:00
+pm-scholarship-scheme,Bonafide certificate from college,1,,"Form Annexure-1 signed by Principal / Dean of the engineering or medical college.",'[]',2026-09-25 16:30:00
+pm-kisan-samman-nidhi,Land ownership document (Khatauni/ROR),1,,"Official land records showing cultivable landholding in applicant farmer name.",'["Certified copy of Patwari mutation register"]',2026-09-28 12:00:00
+pm-kisan-samman-nidhi,Aadhaar-seeded bank account passbook,1,,"Direct payment requires NPCI mapping of bank account with Aadhaar.",'["Bank verification certificate with NPCI confirmation"]',2026-09-28 12:00:00
+pm-awas-yojana,Job card under MGNREGA,1,,"Required to claim 90-95 days of unskilled labour wages for construction.",'["Local Gram Panchayat verification"]',2026-09-30 15:45:00
+pm-awas-yojana,Bank account details,1,,"Direct installment disbursement requires DBT-enabled single/joint savings account.",'["Post Office Savings Account passbook"]',2026-09-30 15:45:00

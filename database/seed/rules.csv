@@ -1,0 +1,12 @@
+scheme_slug,field_name,operator,expected_value_json,data_type,is_mandatory,logical_group,explanation_en,explanation_hi
+pm-vishwakarma,occupation,in,"[""artisan""]",string,1,group_occ,"Applicant must be an artisan or craftsperson working with hands and tools in one of 18 trades","आवेदक 18 पारंपरिक शिल्पों में से किसी एक में अपने हाथों और औजारों से काम करने वाला कारीगर होना चाहिए"
+pm-vishwakarma,age,gte,18,int,1,,Applicant must be at least 18 years of age,आवेदक की आयु कम से कम 18 वर्ष होनी चाहिए
+ayushman-bharat-pmjay,income_band,in,"[""below_2_5"", ""2_5_to_5""]",string,1,,"Household income should be within low income/SECC deprivation ceiling",परिवार की आय निम्न आय या SECC वंचितता सीमा के भीतर होनी चाहिए
+national-scholarship-portal,occupation,eq,"""student""",string,1,,Applicant must currently be an enrolled student,आवेदक को वर्तमान में नामांकित छात्र होना चाहिए
+national-scholarship-portal,income_band,in,"[""below_2_5"", ""2_5_to_5"", ""5_to_8""]",string,1,,Family annual income must not exceed ₹8 Lakh,पारिवारिक वार्षिक आय ₹8 लाख से अधिक नहीं होनी चाहिए
+sukanya-samriddhi-yojana,gender,eq,"""female""",string,1,,Scheme is specifically for the benefit of a girl child,योजना विशेष रूप से बालिका के लाभ के लिए है
+sukanya-samriddhi-yojana,age,lte,10,int,1,,Girl child must be 10 years or younger at account opening,खाता खोलने के समय बालिका की आयु 10 वर्ष या उससे कम होनी चाहिए
+pm-scholarship-scheme,occupation,eq,"""student""",string,1,,Applicant must be pursuing a recognized technical/professional degree,आवेदक को किसी मान्यता प्राप्त संस्थान से तकनीकी या व्यावसायिक डिग्री प्राप्त करनी चाहिए
+pm-scholarship-scheme,education,in,"[""higher_secondary"", ""graduate""]",string,1,,Minimum qualification of Class 12 or equivalent with 60%+ marks,कक्षा 12 या समकक्ष में न्यूनतम 60% अंकों के साथ उत्तीर्ण
+pm-kisan-samman-nidhi,occupation,eq,"""farmer""",string,1,,Applicant family must own cultivable agricultural land,आवेदक परिवार के पास कृषि योग्य भूमि होनी चाहिए
+pm-awas-yojana,income_band,in,"[""below_2_5"", ""2_5_to_5""]",string,1,,Household must belong to Low Income Group (LIG) or Below Poverty Line (BPL),परिवार निम्न आय वर्ग या गरीबी रेखा से नीचे होना चाहिए
