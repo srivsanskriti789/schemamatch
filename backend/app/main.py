@@ -113,6 +113,104 @@ VERIFIED_SCHEMES = [
             {"name_key": "Previous year marksheet", "mandatory": True, "tip_key": "Showing passing percentage"},
             {"name_key": "Income certificate", "mandatory": True, "tip_key": "Issued by revenue authority"},
         ]
+    },
+    {
+        "id": "sch-4",
+        "slug": "pm-scholarship-scheme",
+        "category_slug": "education-scholarships",
+        "level": "central",
+        "state_code": None,
+        "status": "ACTIVE",
+        "is_featured": False,
+        "badge": "popular",
+        "official_url": "https://ksb.gov.in",
+        "apply_url": "https://ksb.gov.in/pm-scholarship.htm",
+        "name_en": "PM Scholarship Scheme",
+        "name_hi": "पीएम स्कॉलरशिप स्कीम",
+        "summary_en": "Financial assistance for dependent wards and widows of ex-servicemen pursuing recognized degrees.",
+        "benefits_en": "₹3,000/month for girls and ₹2,500/month for boys for professional degrees.",
+        "last_verified_at": "2026-09-25",
+        "rules": [
+            {"id": "r6", "field_name": "occupation", "operator": "eq", "expected_value": "student", "is_mandatory": True, "explanation_en": "Applicant must be an enrolled student in professional degree course"},
+            {"id": "r7", "field_name": "education", "operator": "in", "expected_value": ["higher_secondary", "graduate"], "is_mandatory": True, "explanation_en": "Minimum 60% marks in Class 12 or Polytechnic diploma"},
+        ],
+        "documents": [
+            {"name_key": "Ex-serviceman identity card / Discharge book", "mandatory": True, "tip_key": "Showing service details and registered dependent relationship"},
+            {"name_key": "Bonafide college certificate", "mandatory": True, "tip_key": "Annexure-1 stamped and signed by College Principal or Dean"},
+        ]
+    },
+    {
+        "id": "sch-5",
+        "slug": "sukanya-samriddhi-yojana",
+        "category_slug": "women-families",
+        "level": "central",
+        "state_code": None,
+        "status": "ACTIVE",
+        "is_featured": False,
+        "badge": "popular",
+        "official_url": "https://www.indiapost.gov.in",
+        "apply_url": "https://www.indiapost.gov.in/Financial/Pages/Content/Sukanya-Samriddhi-Account.aspx",
+        "name_en": "Sukanya Samriddhi Yojana",
+        "name_hi": "सुकन्या समृद्धि योजना",
+        "summary_en": "Government-backed small deposit savings scheme for girl children with tax benefits.",
+        "benefits_en": "High 8.2% p.a. guaranteed interest with Section 80C tax exemption.",
+        "last_verified_at": "2026-09-22",
+        "rules": [
+            {"id": "r8", "field_name": "gender", "operator": "eq", "expected_value": "female", "is_mandatory": True, "explanation_en": "Scheme is exclusively for the benefit of a girl child"},
+            {"id": "r9", "field_name": "age", "operator": "lte", "expected_value": 10, "is_mandatory": True, "explanation_en": "Girl child must be aged 10 years or younger at account opening"},
+        ],
+        "documents": [
+            {"name_key": "Birth certificate of girl child", "mandatory": True, "tip_key": "Issued by municipal registrar, hospital, or panchayat"},
+            {"name_key": "Parent/Guardian ID and address proof", "mandatory": True, "tip_key": "Aadhaar, Passport, or Voter ID of parent"},
+        ]
+    },
+    {
+        "id": "sch-6",
+        "slug": "pm-kisan-samman-nidhi",
+        "category_slug": "agriculture-rural",
+        "level": "central",
+        "state_code": None,
+        "status": "ACTIVE",
+        "is_featured": False,
+        "badge": "popular",
+        "official_url": "https://pmkisan.gov.in",
+        "apply_url": "https://pmkisan.gov.in/RegistrationFormNew.aspx",
+        "name_en": "PM-KISAN Samman Nidhi",
+        "name_hi": "पीएम-किसान सम्मान निधि",
+        "summary_en": "Direct income support of ₹6,000 per year for all landholding farmer families across India.",
+        "benefits_en": "₹6,000 per year in 3 equal installments credited directly into bank account.",
+        "last_verified_at": "2026-09-28",
+        "rules": [
+            {"id": "r10", "field_name": "occupation", "operator": "eq", "expected_value": "farmer", "is_mandatory": True, "explanation_en": "Applicant must be a farmer owning cultivable land"},
+        ],
+        "documents": [
+            {"name_key": "Land ownership record (Khatauni / ROR)", "mandatory": True, "tip_key": "Updated land mutation record showing ownership"},
+            {"name_key": "Aadhaar-seeded bank account passbook", "mandatory": True, "tip_key": "Bank account must be seeded with Aadhaar and NPCI mapped"},
+        ]
+    },
+    {
+        "id": "sch-7",
+        "slug": "pm-awas-yojana",
+        "category_slug": "housing-essentials",
+        "level": "central",
+        "state_code": None,
+        "status": "ACTIVE",
+        "is_featured": False,
+        "badge": "high_impact",
+        "official_url": "https://pmayg.nic.in",
+        "apply_url": "https://pmayg.nic.in",
+        "name_en": "PM Awas Yojana (Gramin)",
+        "name_hi": "पीएम आवास योजना (ग्रामीण)",
+        "summary_en": "Financial grant assistance to rural houseless families to build pucca houses with basic amenities.",
+        "benefits_en": "Grant of ₹1,20,000 in plains and ₹1,30,000 in hilly areas plus 95 days MGNREGA wages.",
+        "last_verified_at": "2026-09-30",
+        "rules": [
+            {"id": "r11", "field_name": "income_band", "operator": "in", "expected_value": ["below_2_5", "2_5_to_5"], "is_mandatory": True, "explanation_en": "Household must belong to Low Income Group (LIG) or BPL without pucca house"},
+        ],
+        "documents": [
+            {"name_key": "Job card under MGNREGA", "mandatory": True, "tip_key": "Required to claim unskilled labour wages for construction"},
+            {"name_key": "Bank account details", "mandatory": True, "tip_key": "Direct installment disbursement requires DBT-enabled account"},
+        ]
     }
 ]
 
